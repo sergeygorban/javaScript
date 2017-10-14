@@ -30,3 +30,26 @@ obj.color = "yellow";
 obj["number"] = 3;
 obj[A] = 8;
 
+// Создание объекта с значениями
+
+const sam = {
+    name: 'Sam',
+    age:4,
+};
+
+const sam1 = {
+        name:'Sam',
+        classification: {
+            kingdom: 'Anamalia',
+            phylum: 'Chordata',
+            class: 'Mamalia',
+            order: 'Carnivoria',
+            family: 'Felidae',
+            subfaimily: 'Felinae',
+            genus: 'Felis',
+            species: 'catus'
+        }
+};
+
+// Удаление свойства из объекта
+delete sam1.classification;
