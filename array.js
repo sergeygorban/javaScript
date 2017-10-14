@@ -52,3 +52,7 @@ arr1[arr1.length - 1];
 const arr2 = ['a', 'b', 'c'];
 arr2[0] = 234;
 arr2[0];
+
+// Преобразование в строку
+const ar = [1, true, "hello"];
+ar.toString();
