@@ -18,4 +18,5 @@ const n1 = n.toString();
 
 
 // Преобразование в логическое значение
-
+const n2 = 0;
+const n3 = Boolean(n1);

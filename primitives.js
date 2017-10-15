@@ -54,7 +54,8 @@ const dialog = "Не looked up and said \"don't do that!\" to Мах.";
 
 //Строковый шаблон
 let currentTemp = 19.5 ;
-const message = 'The current temperature is ${currentTemp}';
+console.log(`The current temperature is ${currentTemp}`);
+
 
 // Создание символов
 const RED = Symbol();
