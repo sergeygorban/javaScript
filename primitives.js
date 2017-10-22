@@ -52,10 +52,10 @@ Symbol()
 // Экранирование символов
 const dialog = "Не looked up and said \"don't do that!\" to Мах.";
 
-//Строковый шаблон
+//Строковый шаблон. Выполнение вычислений в строковом шаблоне
 let currentTemp = 19.5 ;
 console.log(`The current temperature is ${currentTemp}`);
-
+console.log(`The current temperature is ${currentTemp + 150}`);
 
 // Создание символов
 const RED = Symbol();
