@@ -51,4 +51,37 @@ for (let u of userRole.values()) {
     console.log(u);
 }
 
-//
+// Получение элементов в виде массива
+const userRole = new Map();
+
+const u1 = { name: 'Cynthia' };
+const u2 = { name: 'Jackson' };
+const u3 = { name: 'Olive' };
+const u4 = { name: 'James' };
+
+userRole.set(u1, 'User');
+userRole.set(u2, 'User');
+userRole.set(u3, 'Admin');
+
+for (let u of userRole.entries()) {
+    console.log(u);
+}
+
+// Вывод значений в виде массива
+console.log([...userRole.values()]);
+
+//Удаление одиночного элемента
+const userRole = new Map();
+
+const u1 = { name: 'Cynthia' };
+const u2 = { name: 'Jackson' };
+
+userRole.set(u1, 'User');
+userRole.set(u2, 'User');
+
+userRole.delete(u1);
+
+// Удаление всех элементов из отображения
+userRole.clear();
+
+
